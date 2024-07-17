@@ -8,7 +8,7 @@ Please refer to the documentation provided here when installing and using EISPAC
 
 The EISPAC GitHub repo can be found here: https://github.com/USNavalResearchLaboratory/eispac
 _______________________________________________________________________________________________________
-NOTE: that this is very much a work in progress and requires extensive cleanup and modification. 
+NOTE: This is very much a work in progress and requires extensive cleanup and modification. 
 
 This directory contains the modified contents of EISPAC version 0.95.0 and its features.
 
