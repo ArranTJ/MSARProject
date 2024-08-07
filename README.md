@@ -12,7 +12,7 @@ NOTE: This is very much a work in progress and requires extensive cleanup and mo
 
 This directory contains the modified contents of EISPAC version 0.95.0 and its features.
 
-The key modifications are in the fitting_functions.py, and extern/__init__.py files, as well as a new fit_spectraKAPPA.py file to apply the fitting of the function to the parameters
+The key modifications are in the core/fitting_functions.py, and core/__init__.py files, as well as a new core/fit_spectraKAPPA.py file to apply the fitting of the function to the parameters
 
 This customised EISPAC directory (provided in EISPAC_KAPPA (eispac version 0.95.0).7z) permits the use of Kappa functions to fit to the spectra.
 
