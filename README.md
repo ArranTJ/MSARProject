@@ -36,5 +36,5 @@ By loading EIS data + header files into the 'filequeue' folder, FittingMultiFile
 Statistical information about the number of kappa fits, mean kappa values, and mean Chi^2 values for each observation is saved into .csv files under the folder 'goodkappavals'.
 'GOEScurve.py' downloads and produces a GOES X-ray curve, and uses Pandas to organise and arrange the datasets of 'goodkappavals' into different arrays for each phase of the flare.
 This file additionally shows subplots for counts of kappa values alongside the GOES X-ray curve from the data provided in 'goodkappavals'.
-The folders Kappa1 and Kappa2 contain examples of statistical information produced during the project.
+The folders Kappa1 and Kappa2 contain examples of statistical information of good kappa fits for each observation produced during the project.
  
