@@ -18,16 +18,17 @@ This customised EISPAC directory (provided in EISPAC_0.95_Modified.7z) permits t
 
 Produce custom templates using eispac.EISFitTemplate() to include a free parameter for the kappa value in addition to parameters already provided in the existing templates.
 
-##NOTE: 
+NOTE: 
 This assumes a template containing 5 parameters (p[0],p[1],p[2],p[3],p[4]). 
 
 Changes to the number of parameters in the template will require a change to the parameter assigned to kappa in fitting_functions.py
 (i.e if the number of parameters is 5, and the kappa value is the last parameter, the kappa value is passed into fitting_functions.py as p[4]. 
 
 If the number of parameters is larger than this, line 194: p = param\[3*n:3*n+5] must be changed to permit the additional parameter indices.)
-##
 
 Once the template parameters are set up correctly, the spectra in the selected observation can be fitted with the kappa function by calling eispac.fit_spectraKAPPA().
+
+##
 
 "FittingMultiFile.py" is the primary file used to call the EISPAC fitting functions and modules. This also produces a series of plots, and saves numpy data arrays into their assigned directories.
 By loading EIS data + header files into the 'filequeue' folder, FittingMultiFile.py will automatically run through and process each of the observation files present inside this folder.
