@@ -30,7 +30,7 @@ If the number of parameters is larger than this, line 194: p = param\[3*n:3*n+5]
 Once the template parameters are set up correctly, the spectra in the selected observation can be fitted with the kappa function by calling eispac.fit_spectraKAPPA().
 
 "FittingMultiFile.py" is the primary file used to call the EISPAC fitting functions and modules. This also produces a series of plots, and saves numpy data arrays into their assigned directories.
-By loading EIS data + header files into the 'filequeue' folder, FittingMultiFile.py will automatically run through and process.
+By loading EIS data + header files into the 'filequeue' folder, FittingMultiFile.py will automatically run through and process each of the observation files present inside this folder.
 
 Statistical information about the number of kappa fits, mean kappa values, and mean Chi^2 values for each observation is saved into .csv files under the folder 'goodkappavals'.
 'GOEScurve.py' downloads and produces a GOES X-ray curve, and uses Pandas to organise and arrange the datasets of 'goodkappavals' into different arrays for each phase of the flare.
